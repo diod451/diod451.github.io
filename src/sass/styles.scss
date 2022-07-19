@@ -1,0 +1,45 @@
+@import '_variables.scss';
+@import '_fonts.scss';
+@import '_header.scss';
+@import '_title.scss';
+
+
+.container {
+	width: 1320px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 0;
+}
+
+h3 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: var(--text-color-main);
+}
+
+.button {
+	padding: 15px 42px;
+	border-radius: 100px;
+	border: none;
+	font-family: "Inter", sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	color: var(--text-color-reverse);
+	background-color: var(--button-color);
+
+	&__reverse {
+		color: var(--button-color);
+		background-color: var(--text-color-reverse);
+		box-shadow: 10px 5px 40px var(--shadow-color);
+
+	}
+}
+
+.shadow {
+	box-shadow: 10px 5px 40px var(--shadow-color);
+}

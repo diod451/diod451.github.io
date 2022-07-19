@@ -1,0 +1,33 @@
+.header {
+	padding-top: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&__logo {
+		font-family: "Roboto";
+		font-size: 36px;
+		font-weight: 700;
+	}
+
+	&__nav {
+		& a {
+			color: var(--text-color-second);
+			font-family: "Inter", sans-serif;
+			font-size: 16px;
+			font-weight: 300;
+			padding: 0px 30 px;
+		}
+	}
+
+	&__login {
+		a {
+			margin-right: 35px;
+			font-family: "Roboto";
+			font-weight: 400;
+			font-size: 18px;
+		}
+
+		// & button {}
+	}
+}
