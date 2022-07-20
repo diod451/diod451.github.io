@@ -1,0 +1,15 @@
+.footer {
+	position: sticky;
+	left: 0px;
+	width: 100%;
+	min-height: 961px;
+	background-color: blue;
+
+	&__container {
+		width: 1366px;
+		margin: 0 auto;
+		margin-top: 150px;
+		text-align: center;
+	}
+
+}

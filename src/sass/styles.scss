@@ -1,7 +1,5 @@
 @import '_variables.scss';
 @import '_fonts.scss';
-@import '_header.scss';
-@import '_title.scss';
 
 
 .container {
@@ -30,10 +28,10 @@ a {
 	font-weight: 100;
 	font-size: 18px;
 	color: var(--text-color-reverse);
-	background-color: var(--button-color);
+	background-color: rgb(var(--button-color));
 
 	&__reverse {
-		color: var(--button-color);
+		color: rgb(var(--button-color));
 		background-color: var(--text-color-reverse);
 		box-shadow: 10px 5px 40px var(--shadow-color);
 
@@ -43,3 +41,19 @@ a {
 .shadow {
 	box-shadow: 10px 5px 40px var(--shadow-color);
 }
+
+.line {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 100%;
+	border-bottom: 1px solid #000;
+	opacity: 0.3;
+}
+
+
+@import '_header.scss';
+@import '_title.scss';
+@import '_clients.scss';
+@import '_about.scss';
+@import '_testimonials';
+@import '_footer.scss';

@@ -1,0 +1,22 @@
+.clients {
+	margin-top: 150px;
+	text-align: center;
+
+	& p {
+		font-family: 'Inter', sans-serif;
+		font-size: 16px;
+		font-weight: 200;
+		color: var(--text-color-3);
+	}
+
+	&__slider {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		& a {
+			padding: 0px 52px;
+
+		}
+	}
+}
