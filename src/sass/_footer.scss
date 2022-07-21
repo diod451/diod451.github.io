@@ -1,15 +1,142 @@
 .footer {
-	position: sticky;
-	left: 0px;
-	width: 100%;
+	// position: sticky;
+	// left: 0px;
+	// width: 100%;
+	margin: 0;
 	min-height: 961px;
-	background-color: blue;
+
+	background: url(../img/footer__bg.png) center top / cover no-repeat;
+	// background-origin: padding-box;
+	text-align: center;
 
 	&__container {
 		width: 1366px;
 		margin: 0 auto;
-		margin-top: 150px;
-		text-align: center;
+		padding-top: 150px;
+
 	}
 
+	&__flex-container {
+		margin-top: 142px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__title {
+		font-family: 'Circular Std', sans-serif;
+		font-size: 72px;
+		font-weight: 700;
+		color: var(--text-color-reverse);
+
+	}
+
+	&__contacts {
+		text-align: left;
+		font-family: 'Inter', sans-serif;
+		min-width: 400px;
+
+
+	}
+
+	&__subtitle {
+		font-family: 'Circular Std', sans-serif;
+		font-weight: 300;
+		font-size: 20px;
+		margin-bottom: 33px;
+		font-size: 28px;
+		font-weight: 300;
+		color: var(--text-color-reverse);
+	}
+
+	&__text {
+		display: block;
+		font-family: 'Inter', sans-serif;
+		font-size: 16px;
+		font-weight: 100;
+		color: var(--text-color-footer);
+		padding: 10px 0 10px 0;
+	}
+
+	&__links {
+		margin-top: 22px;
+		display: flex;
+		align-items: start;
+
+		& a {
+
+			padding-right: 25px;
+			color: var(--color-icon);
+			height: 16px;
+		}
+	}
+
+	&__nav {
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		text-align: left;
+		width: 706px;
+	}
+
+	&__copyright {
+		margin-top: 70px;
+		// margin-bottom: 32px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		font-weight: 100;
+		color: var(--text-color-reverse);
+	}
+
+	&__column {}
+}
+
+
+.footer__input {
+	margin: auto;
+	margin-top: 40px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	width: 748px;
+	height: 80px;
+	padding-right: 221px;
+	font-family: 'Inter', sans-serif;
+	color: var(--tex-color-3);
+	font-size: 22px;
+}
+
+.input {
+	&__input {
+		margin: 0;
+		position: relative;
+		color: var(--tex-color-3);
+		display: block;
+		width: 100%;
+		padding: 24px 330px 24px 30px;
+		border: none;
+		border: 1px solid var(--tex-color-3);
+		border-radius: 10px 0px 0px 10px;
+		background: transparent;
+
+	}
+
+	&__submit {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 221px;
+		height: 100%;
+		font-weight: 100;
+		display: block;
+		padding: 24px 50px;
+		margin-left: -10%;
+		border: none;
+		border-radius: 0px 10px 10px 0;
+		background: #0555FF;
+		color: #fff;
+		white-space: nowrap;
+		box-shadow: 0 0 5px 1px rgba(0, 0, 0, .15);
+	}
 }

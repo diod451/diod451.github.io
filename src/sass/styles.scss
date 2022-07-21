@@ -7,11 +7,27 @@
 	margin: 0 auto;
 }
 
+body {
+	margin: 0;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
 h1 {
 	margin: 0;
 }
 
+h2 {
+	margin: 0;
+}
+
 h3 {
+	margin: 0;
+}
+
+p {
 	margin: 0;
 }
 
@@ -50,6 +66,17 @@ a {
 	opacity: 0.3;
 }
 
+.icon-bask:before {
+	content: "\e903";
+}
+
+.icon-fb:before {
+	content: "\e900";
+}
+
+.icon-be:before {
+	content: "\e902";
+}
 
 @import '_header.scss';
 @import '_title.scss';
