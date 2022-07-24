@@ -1,0 +1,28 @@
+@media (max-width: 1440px) {
+	.about {
+		&__features {
+			&__element {
+				& img {
+					left: auto;
+				}
+
+				&:nth-child(2) {
+					justify-content: right;
+				}
+			}
+		}
+
+		&__text {
+			margin-left: 70px;
+
+		}
+	}
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 425px) {}
