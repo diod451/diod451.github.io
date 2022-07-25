@@ -4,10 +4,11 @@
 	min-height: 961px;
 
 	background: url(../img/footer__bg.png) center top / cover no-repeat;
+	// background-origin: padding-box;
 	text-align: center;
 
 	&__container {
-		width: 1366px;
+		width: 77%;
 		margin: 0 auto;
 		padding-top: 150px;
 
@@ -78,13 +79,14 @@
 
 	&__copyright {
 		margin-top: 70px;
+		// margin-bottom: 32px;
 		font-family: 'Roboto', sans-serif;
 		font-size: 16px;
 		font-weight: 100;
 		color: var(--text-color-reverse);
 	}
 
-	&__column {}
+
 }
 
 
@@ -109,7 +111,6 @@
 		position: relative;
 		color: var(--tex-color-3);
 		display: block;
-		// width: 100%;
 		padding: 24px 330px 24px 30px;
 		border: none;
 		border: 1px solid var(--tex-color-3);

@@ -31,7 +31,20 @@
 	&__images {
 		margin-top: 100px;
 		display: flex;
+		flex-shrink: 0;
 		align-items: center;
 		justify-content: center;
+
+		&__img {
+			& .shadow {
+				width: 100%;
+				height: auto;
+			}
+
+			& img {
+				width: 100%;
+				height: auto;
+			}
+		}
 	}
 }
