@@ -11,6 +11,8 @@
 	}
 
 	&__nav {
+		display: flex;
+
 		& a {
 			color: var(--text-color-2);
 			font-family: "Inter", sans-serif;

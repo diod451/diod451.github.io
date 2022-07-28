@@ -10,11 +10,14 @@
 	}
 
 	&__slider {
+		width: 100%;
+		margin-top: 26px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 
 		& a {
+
 			padding: 0px 52px;
 
 		}

@@ -86,40 +86,55 @@
 		color: var(--text-color-reverse);
 	}
 
+	&__column {
+		width: 33%;
+	}
+
 
 }
 
 
 .footer__input {
+	width: 60%;
+	// max-width: 748px;
 	margin: auto;
 	margin-top: 40px;
 	position: relative;
 	display: flex;
+	justify-content: center;
 	flex-direction: row;
 	box-sizing: border-box;
-	width: 748px;
 	height: 80px;
-	padding-right: 221px;
+	// padding-right: 221px;
 	font-family: 'Inter', sans-serif;
 	color: var(--tex-color-3);
 	font-size: 22px;
+
+	& :focus {
+		outline: none;
+	}
 }
 
 .input {
 	&__input {
+		width: 90%;
 		margin: 0;
 		position: relative;
 		color: var(--tex-color-3);
 		display: block;
-		padding: 24px 330px 24px 30px;
+		padding: 24px 0 24px 30px;
 		border: none;
 		border: 1px solid var(--tex-color-3);
-		border-radius: 10px 0px 0px 10px;
+		// border-radius: 10px 0px 0px 10px;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
 		background: transparent;
+		box-sizing: border-box;
 
 	}
 
 	&__submit {
+		width: 40%;
 		position: absolute;
 		right: 0;
 		top: 0;
