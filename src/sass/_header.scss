@@ -30,4 +30,13 @@
 			font-size: 18px;
 		}
 	}
+
+	&__menu {
+		display: flex;
+		align-items: center;
+	}
+
+	&__hamburger {
+		display: none;
+	}
 }
